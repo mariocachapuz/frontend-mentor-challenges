@@ -12,4 +12,5 @@ This repository contains a few challenges from [Frontend Mentor](https://www.fro
 
 |Live Demo|Difficulty|Technologies used|Comments|
 |---|---|---|---|
+|[NFT preview card component[(https://mariocachapuz.github.io/frontend-mentor-challenges/nft-preview-card-component/)|:star:|HTML, CSS| Complete|
 |[Time tracking dashboard](https://mariocachapuz.github.io/frontend-mentor-challenges/time-tracking-dashboard/)|:star: :star:|HTML, CSS, JS|Still lacking mobile version|
