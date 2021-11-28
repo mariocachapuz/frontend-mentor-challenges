@@ -1,0 +1,100 @@
+.card {
+    background-color: var(--dark-blue);
+    border-radius: 15px;
+    width: 15rem;
+    height: 11.3rem;
+    padding: 1.5rem;
+    margin: 3rem 0;
+    position: absolute;
+    transition: .3s ease;
+}
+
+.card:hover{
+    background-color: var(--dark-blue-hover);
+    cursor: pointer;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+}
+.card-box-icon {
+    position: relative;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-icon {
+    width: 80px;
+    height: 80px;
+    transform: translateX(140px);
+    margin-top: -7px;
+}
+
+.card-title, .card-time, .card-time-lastweek {
+    display: flex;
+}
+
+.card-title {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1.5rem 0;
+
+}
+
+.card-time {
+    font-size: 30px;
+    margin: 0 0 .5rem 0;
+}
+
+.card-time-lastweek {
+    font-size: 13px;
+    font-weight: 100;
+    color: var(--pale-blue);;
+}
+
+.card-user-header {
+    position: absolute;
+    z-index: 1;
+    background-color: var(--blue);
+    width: 15rem;
+    height: 22rem;
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-user-header .avatar {
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    margin: 0 0 3rem 0;
+}
+
+.card-user-header p {
+    color: var(--pale-blue);
+}
+
+.card-user-select {
+    background-color: var(--dark-blue);
+    color: var(--pale-blue);
+    border-radius: 15px;
+    width: 15rem;
+    height: 11rem;
+    transform: translateY(20rem);
+    padding: 3.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-user-select h4 {
+    width: auto;
+}
+
+.card-user-select h4:hover{
+    color: var(--white);
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import "./card.css";
+
+:root {
+    --blue: hsl(246, 80%, 60%);
+    --white: hsl(255, 100%, 95%);
+
+    --work: hsl(15, 100%, 70%);
+    --study: hsl(348, 100%, 68%);
+    --exercise: hsl(145, 58%, 55%);
+    --play: hsl(195, 74%, 62%);
+    --social: hsl(264, 64%, 52%);
+    --self-care: hsl(43, 84%, 65%);
+
+    --very-dark-blue: hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 46%, 20%);
+    --dark-blue-hover: hsl(235, 41%, 34%);
+    --desaturated-blue: hsl(235, 45%, 61%);
+    --pale-blue: hsl(236, 100%, 87%);
+
+    --main-font: 'Rubik', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    font-family: var(--main-font);
+    color: var(--white);
+}
+
+.dashboard {
+    width: 1100px;
+    height: 500px;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.work{
+    background: var(--work);
+}
+.play {
+    background: var(--play);
+}
+.study {
+    background: var(--study);
+}
+.exercise {
+    background: var(--exercise);
+}
+.social {
+    background: var(--social);
+}
+.self-care {
+    background: var(--self-care);
+}

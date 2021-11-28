@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Time tracking dashboard</title>
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="user">
+            <div class="card-user-header">
+                <img src="/mariocachapuz/img/mario.jpeg" alt="" width="45%" class="avatar">
+                <p>Report for</p>
+                <h1>Mario Cachapuz</h1>
+            </div>
+            <div class="card-user-select">
+                <h4 id="dailybtn" onclick="dailyShow()">Daily</h4>
+                <h4>Weekly</h4>
+                <h4>Monthly</h4>
+            </div>
+        </div>
+        <div class="cards-container">
+            <div class="card-box">
+                <div class="card-box-icon work"><img src="./img/icon-work.svg" alt="" class="card-icon"></div>
+                <div class="card">
+                    <div class="card-title">
+                        <h3>Work</h3>
+                        <div class="ellipsis">
+                            <img src="./img/icon-ellipsis.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-time">
+                        <h2 id="work-hours">32hrs</h2>
+                    </div>
+                    <div class="card-time-lastweek">
+                        <p>Last week - 36hrs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card-box-icon play"><img src="./img/icon-play.svg" alt="" class="card-icon"></div>
+                <div class="card">
+                    <div class="card-title">
+                        <h3>Play</h3>
+                        <div class="ellipsis">
+                            <img src="./img/icon-ellipsis.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-time">
+                        <h2>10hrs</h2>
+                    </div>
+                    <div class="card-time-lastweek">
+                        <p>Last week - 8hrs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card-box-icon study"><img src="./img/icon-study.svg" alt="" class="card-icon"></div>
+                <div class="card">
+                    <div class="card-title">
+                        <h3>Study</h3>
+                        <div class="ellipsis">
+                            <img src="./img/icon-ellipsis.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-time">
+                        <h2>4hrs</h2>
+                    </div>
+                    <div class="card-time-lastweek">
+                        <p>Last week - 7hrs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card-box-icon exercise"><img src="./img/icon-exercise.svg" alt="" class="card-icon"></div>
+                <div class="card">
+                    <div class="card-title">
+                        <h3>Exercise</h3>
+                        <div class="ellipsis">
+                            <img src="./img/icon-ellipsis.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-time">
+                        <h2>4hrs</h2>
+                    </div>
+                    <div class="card-time-lastweek">
+                        <p>Last week - 5hrs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card-box-icon social"><img src="./img/icon-social.svg" alt="" class="card-icon"></div>
+                <div class="card">
+                    <div class="card-title">
+                        <h3>Social</h3>
+                        <div class="ellipsis">
+                            <img src="./img/icon-ellipsis.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-time">
+                        <h2>5hrs</h2>
+                    </div>
+                    <div class="card-time-lastweek">
+                        <p>Last week - 10hrs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="card-box-icon self-care"><img src="./img/icon-self-care.svg" alt="" class="card-icon"></div>
+                <div class="card">
+                    <div class="card-title">
+                        <h3>Self Care</h3>
+                        <div class="ellipsis">
+                            <img src="./img/icon-ellipsis.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-time">
+                        <h2>2hrs</h2>
+                    </div>
+                    <div class="card-time-lastweek">
+                        <p>Last week - 2hrs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
