@@ -16,3 +16,7 @@ This repository contains a few challenges from [Frontend Mentor](https://www.fro
 |[Huddle landing page](https://mariocachapuz.github.io/frontend-mentor-challenges/huddle-landing-page)|:star:|HTML, CSS| Complete|
 |[Time tracking dashboard](https://mariocachapuz.github.io/frontend-mentor-challenges/time-tracking-dashboard/)|:star: :star:|HTML, CSS, JS|Still lacking mobile version|
 |[Pricing component with toggle](https://mariocachapuz.github.io/frontend-mentor-challenges/pricing-component-with-toggle/)|:star: :star:|HTML, CSS, JS|Complete|
+|Insure landing page|:star: :star:|HTML, CSS, JS||
+|Fylo Dark Theme landing page|:star: :star:|HTML, CSS||
+|Manage landing page|:star::star::star:|HTML, CSS, JS||
+|Bookmark landing page|:star::star::star:|HTML, CSS, JS||
