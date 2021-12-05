@@ -15,3 +15,4 @@ This repository contains a few challenges from [Frontend Mentor](https://www.fro
 |[NFT preview card component](https://mariocachapuz.github.io/frontend-mentor-challenges/nft-preview-card-component/)|:star:|HTML, CSS| Complete|
 |[Huddle landing page](https://mariocachapuz.github.io/frontend-mentor-challenges/huddle-landing-page)|:star:|HTML, CSS| Complete|
 |[Time tracking dashboard](https://mariocachapuz.github.io/frontend-mentor-challenges/time-tracking-dashboard/)|:star: :star:|HTML, CSS, JS|Still lacking mobile version|
+|[Pricing component with toggle](https://mariocachapuz.github.io/frontend-mentor-challenges/pricing-component-with-toggle/)|:star: :star:|HTML, CSS, JS|Complete|
