@@ -12,6 +12,13 @@ This repository contains a few challenges from [Frontend Mentor](https://www.fro
 
 |Live Demo|Difficulty|Technologies used|Comments|
 |---|---|---|---|
+|Intro component with sign-up form|:star:|HTML, CSS||
+|Single price grid component|:star:|HTML, CSS||
+|Four card feature section|:star:|HTML. CSS||
+|Profile card component|:star:|HTML, CSS||
+|Stats preview card component|:star:|HTML, CSS||
+|Order summary component|:star:|HTML, CSS||
+|3-column preview card component|:star:|HTML, CSS||
 |[NFT preview card component](https://mariocachapuz.github.io/frontend-mentor-challenges/nft-preview-card-component/)|:star:|HTML, CSS| Complete|
 |[Huddle landing page](https://mariocachapuz.github.io/frontend-mentor-challenges/huddle-landing-page)|:star:|HTML, CSS| Complete|
 |[Time tracking dashboard](https://mariocachapuz.github.io/frontend-mentor-challenges/time-tracking-dashboard/)|:star: :star:|HTML, CSS, JS|Still lacking mobile version|
