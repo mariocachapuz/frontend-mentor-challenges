@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: var(--light-gray);
+}
+
+
+
+.price-component {
+    width: 700px;
+    height: 600px;
+    margin: 5rem auto;
+}
+
+
+
+.component-about {
+    background-color: #fff;
+    width: 100%;
+    height: 40%;
+    padding: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #ccc;
+}
+.component-about h1 {
+    color: var(--cyan);
+    font-size: 1.5em;
+    margin: 0 0 2rem 0;
+}
+.component-about h2 {
+    color: var(--bright-yellow);
+    font-size: 1.2em;
+    margin: 0 0 .5rem 0;
+}
+.component-about p {
+    color: var(--grayish-blue);
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+
+
+.cta {
+    display: flex;
+    height: 45%;
+}
+.component-cta {
+    flex: 1;
+    background-color: var(--cyan);
+    color: #fff;
+    padding: 2rem;
+    border-bottom-left-radius: 10px;
+}
+.component-cta h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.4em;
+}
+.component-cta h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5em;
+}
+.component-cta p {
+    margin: 0 0 1rem 0;
+    font-size: 1.2em;
+}
+.component-cta #price {
+    font-size: 1.7em;
+    display: flex;
+    align-items: center;
+}
+.cta-btn {
+    background-color: var(--bright-yellow);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem 0 0;
+    padding: 1.5rem;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px -15px #000;
+    font-weight: bold;
+}
+.cta-btn:hover {
+    background-color: hsl(71, 53%, 77%);
+}
+
+
+
+.component-features {
+    flex: 1;
+    background-color: hsla(179, 62%, 43%, .8);
+    padding: 2rem;
+    border-bottom-right-radius: 10px;
+    font-size: 12px;
+}
+.component-features h2 {
+    font-size: 1.5em;
+    margin: 0 0 1rem 0;
+    color: #fff;
+}
+.component-features p {
+    color: var(--light-gray);
+    line-height: 1.6;
+    font-size: 1.3em;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .price-component {
+        width: 80%;
+        height: auto;
+        margin: 2rem auto;
+    }
+
+
+
+    .component-about, .cta {
+        display: block;
+    }
+    .component-about h1 {
+        font-size: 1.3em;
+    }
+    .component-about h2 {
+        font-size: 1.1em;
+    }
+    .component-about p {
+        font-size: .9em;
+    }
+
+
+
+    .component-cta {
+        border-bottom-left-radius: 0;
+    }
+    .component-cta h2 {
+        font-size: 1.1em;
+    }
+
+
+    .component-features {
+        border-bottom-left-radius: 10px;
+    }
+}
