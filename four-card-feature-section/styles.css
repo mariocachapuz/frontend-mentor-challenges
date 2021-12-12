@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--Very-Light-Gray);
+}
+
+
+
+.container {
+    width: 100%;
+    padding: 2rem;
+}
+.title {
+    text-align: center;
+    padding: 3rem 0;
+}
+.title h1 {
+    font-weight: lighter;
+    font-size: 1.9em;
+    color: var(--Very-Dark-Blue);
+}
+.title h2 {
+    color: var(--Very-Dark-Blue);
+    font-size: 1.8em;
+}
+.title p {
+    color: var(--Grayish-Blue);
+    font-size: 1.1em;
+    margin: 1rem 0;
+}
+
+
+
+.component {
+    margin: 0 0 1.5rem;
+    padding: 0;
+    box-shadow: 1px 10px 15px 1px #ccc;
+    border: none;
+    border-radius: .5rem;
+    background-color: #fff;
+}
+.component h2 {
+    color: var(--Very-Dark-Blue);
+    margin: 2rem;
+}
+.component p {
+    color: var(--Grayish-Blue);
+    margin: 2rem;
+}
+.component-img {
+    text-align: right;
+    padding: 1rem 2rem;
+}
+#top-tab-supervisor {
+    background-color: var(--cyan);
+    height: .3rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+#top-tab-teambuilder {
+    background-color: var(--red);
+    height: .3rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+#top-tab-karma {
+    background-color: var(--orange);
+    height: .3rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+#top-tab-calculator {
+    background-color: var(--blue);
+    height: .3rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .container {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .title h1 {
+        font-size: 2.5em;
+    }
+    .title h2 {
+        font-size: 2.4em;
+    }
+    .title p {
+        font-size: 1.1em;
+        width: 40%;
+        margin: 1rem auto;
+    }
+
+
+
+    .components-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 5rem -20px;
+    }
+    .left-component {
+        margin: 0 1.5rem 0;
+    }
+    .right-component {
+        margin: 0 0 0 1.5rem;
+    }
+    .component {
+        width: 25rem;
+    }
+    .component h2 {
+        margin: 2rem 2rem 1rem;
+    }
+    .component p {
+        margin: 0 2rem;
+    }
+
+}
