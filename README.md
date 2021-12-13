@@ -17,7 +17,7 @@ This repository contains a few challenges from [Frontend Mentor](https://www.fro
 |[Four card feature section](https://mariocachapuz.github.io/frontend-mentor-challenges/four-card-feature-section/)|:star:|HTML. CSS|Complete|
 |Profile card component|:star:|HTML, CSS||
 |Stats preview card component|:star:|HTML, CSS||
-|Order summary component|:star:|HTML, CSS||
+|[Order summary component](https://mariocachapuz.github.io/frontend-mentor-challenges/order-summary-component/)|:star:|HTML, CSS||
 |3-column preview card component|:star:|HTML, CSS||
 |[NFT preview card component](https://mariocachapuz.github.io/frontend-mentor-challenges/nft-preview-card-component/)|:star:|HTML, CSS| Complete|
 |[Huddle landing page](https://mariocachapuz.github.io/frontend-mentor-challenges/huddle-landing-page)|:star:|HTML, CSS| Complete|
