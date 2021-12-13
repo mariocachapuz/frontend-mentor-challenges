@@ -14,7 +14,7 @@ This repository contains a few challenges from [Frontend Mentor](https://www.fro
 |---|---|---|---|
 |[Intro component with sign-up form](https://mariocachapuz.github.io/frontend-mentor-challenges/intro-component-with-signup-form/)|:star:|HTML, CSS|Complete|
 |[Single price grid component](https://mariocachapuz.github.io/frontend-mentor-challenges/single-price-grid-component/)|:star:|HTML, CSS|Complete|
-|Four card feature section|:star:|HTML. CSS||
+|[Four card feature section](https://mariocachapuz.github.io/frontend-mentor-challenges/four-card-feature-section/)|:star:|HTML. CSS|Complete|
 |Profile card component|:star:|HTML, CSS||
 |Stats preview card component|:star:|HTML, CSS||
 |Order summary component|:star:|HTML, CSS||
